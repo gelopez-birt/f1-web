@@ -1,0 +1,154 @@
+/* Importar una tipografía moderna y limpia */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0f; /* Fondo oscuro tipo asfalto / box de F1 */
+    color: #e0e0e0; /* Texto claro para lectura cómoda */
+    line-height: 1.7;
+}
+
+/* Cabecera y barra de navegación estilo F1 */
+header {
+    background-color: #121218;
+    color: #ffffff;
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 4px solid #e10600; /* Línea roja icónica de Fórmula 1 */
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    color: #ffffff;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e10600; /* Se ilumina en rojo F1 al pasar el ratón */
+}
+
+/* Contenido principal con aspecto de tarjeta moderna */
+main {
+    max-width: 1000px; /* Un poco más ancho para albergar imágenes grandes */
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #181820; /* Fondo de tarjeta gris muy oscuro y elegante */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    border: 1px solid #2a2a35;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2, h3 {
+    color: #ffffff;
+    border-left: 4px solid #e10600;
+    padding-left: 12px;
+    margin-top: 30px;
+}
+
+/* Imágenes grandes, impactantes y con bordes suaves */
+img {
+    width: 100%; /* Ocupa todo el ancho disponible de forma limpia */
+    max-height: 550px; /* Evita que sean infinitamente altas pero las hace grandes */
+    object-fit: cover; /* Recuadra la foto perfectamente sin deformarla */
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos para listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces externos */
+a {
+    color: #ff3333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario (lo usaremos en la última página) */
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #0b0b0f;
+    border: 1px solid #333340;
+    color: #ffffff;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #e10600;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff1a1a;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121218;
+    color: #888888;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    border-top: 1px solid #2a2a35;
+}
