@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades Fórmula 1 - gelopez</title>
+    <link>https://gelopez.github.io/formula1/</link>
+    <description>Canal de noticias de la web de Fórmula 1 de gelopez</description>
+    
+    <!-- Primer Item -->
+    <item>
+      <title>Nueva actualización en la página de Escuderías</title>
+      <link>https://gelopez.github.io/formula1/escuderias.html</link>
+      <description>Hemos añadido la información de los nuevos monoplazas para esta temporada.</description>
+      <pubDate>Fri, 06 Nov 2026 10:00:00 +0100</pubDate>
+    </item>
+
+    <!-- Segundo Item -->
+    <item>
+      <title>Calendario oficial de carreras publicado</title>
+      <link>https://gelopez.github.io/formula1/calendario.html</link>
+      <description>Ya puedes consultar las fechas de todos los Grandes Premios en la sección del calendario.</description>
+      <pubDate>Fri, 06 Nov 2026 12:30:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
